@@ -293,7 +293,6 @@ body {
   border: 1px solid rgba(0,0,0,0.06);
 }
 .tile img { width: 24px; height: 24px; display: block; }
-.tile.dark { background: #111; border-color: rgba(255,255,255,0.12); }
 
 .card-text { flex: 1; min-width: 0; text-align: left; }
 .card-text strong { display: block; font-size: 15.5px; font-weight: 650; letter-spacing: -0.01em; }
