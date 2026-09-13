@@ -1,166 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es" data-theme="dark">
 <head>
-
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Samuel Muñoz</title>
-  <meta name="description" content="https://sdmunoz.xyz">
-  <meta name="author" content="Seth Cottle">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>Samuel Muñoz — @sdmunoz</title>
+  <meta name="description" content="Samuel Muñoz — Software developer & SRE engineer. Todos mis enlaces en un solo lugar.">
+  <meta name="author" content="Samuel Muñoz">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Themes:
-            Auto:   css/skeleton-auto.css
-            Light:  css/skeleton-light.css
-            Dark:   css/skeleton-dark.css
-     -->
-    <link rel="stylesheet" href="css/skeleton-auto.css">
-
-    <!-- Brand Styles -->
-    <link rel="stylesheet" href="css/brands.css">
-
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="theme-color" content="#0a0a0f">
+  <meta property="og:title" content="Samuel Muñoz — @sdmunoz">
+  <meta property="og:description" content="Software developer, SRE engineer. Encuéntrame en todas partes.">
+  <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="images/littlelink.png">
-
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+  <div class="bg" aria-hidden="true"></div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-
-        <!-- 
-
-          ## Getting Started with LittleLink
-
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
-
-          You can add your own brand or others brands you may need in the `css/brands.css` file. 
-
-          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
-
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
-
-          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
-
-          Edit the "Short Bio" section tell users about yourself or your brand.
-
-        -->
-
-        <!-- Your Image Here -->
-        <img src="images/35168329-9798-4f24-a9fa-aad87c7e16e0.jpg" class="avatar" srcset="images/35168329-9798-4f24-a9fa-aad87c7e16e0.jpg 2x" alt="">
-
-        <!-- Title -->
-        <h1 role="heading">Samuel Muñoz</h1>
-
-        <!-- Short Bio -->
-        <p>Software developer, SRE engineer, always busy in a meeting.</p>
-
-        <!--
-
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
-
-          2.) Replace the # in href="#" with the desired target URL for the button.
-
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
-
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
-
-          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
-
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
-
-          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
-
-          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree. 
-          This can improve the experience for assistive technology users by hiding what is essentially duplicated
-
-        -->
-
-        <!-- PayPal -->
-        <a class="button button-paypal" href="https://paypal.me/sdmunoz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/paypal.svg" alt="">Paypal</a><br>
-
-        <!-- Buy Me A Coffee -->
-        <a class="button button-coffee" href="https://www.buymeacoffee.com/sdmunoz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/buy-me-a-coffee.svg" alt="">Buy me a coffee</a><br>
-
-        <!-- Amazon -->
-        <a class="button button-amazon" href="https://www.amazon.com.mx/hz/wishlist/ls/3Q0AO9PN9W78A?ref_=wl_share" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/amazon.svg" alt="">Amazon wishlist</a><br
-
-        <!-- Facebook -->
-        <a class="button button-faceb" href="https://facebook.com/sdmunoz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/facebook.svg" alt="">Facebook</a><br>
-
-        <!-- GitHub -->
-        <a class="button button-github" href="https://github.com/SamuelMunoz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/github.svg" alt="">GitHub</a><br>
-
-        <!-- Instagram -->
-        <a class="button button-instagram" href="https://www.instagram.com/sdmunoz/" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/instagram.svg" alt="">Instagram</a><br>
-
-        <!-- LinkedIn -->
-        <a class="button button-linked" href="https://www.linkedin.com/in/sdmunoz/" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">LinkedIn</a><br>
-
-        <!-- Reddit -->
-        <a class="button button-reddit" href="https://www.reddit.com/user/sdmunoz9" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/reddit.svg" alt="">Reddit</a><br>
-
-        <!-- Telegram -->
-        <a class="button button-telegram" href="#" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/telegram.svg" alt="">Telegram</a><br>
-
-        <!-- Threads -->
-        <a class="button button-threads" href="https://www.threads.net/@sdmunoz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/threads.svg" alt="">Threads</a><br>
-
-        <!-- Bluesky -->
-        <a class="button button-bluesky" href="https://bsky.app/profile/sdmunoz.xyz" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/bluesky.svg" alt="">Bluesky</a><br> 
-
-        <!-- TikTok -->
-        <a class="button button-tiktok" href="https://www.tiktok.com/@samuelmunoz9" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/tiktok.svg" alt="">TikTok</a><br>
-
-        <!-- WhatsApp -->
-        <a class="button button-whatsapp" href="#" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/whatsapp.svg" alt="">WhatsApp</a><br>
-
-        <!-- X -->
-        <a class="button button-x" href="https://x.com/sdmunoz_" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/x.svg" alt="">X (formerly Twitter)</a><br>
-
-        <!-- YouTube -->
-        <a class="button button-yt" href="https://www.youtube.com/channel/UCPoK5diTUOQnyz0bVXlAP8Q" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/youtube.svg" alt="">YouTube</a><br>        
-
-        
-        <br>
-        <!-- 
-            Footer:
-            This includes a link to privacy.html page which can be setup for your Privacy Policy.
-            This also includes a link to the LittleLink repository to make forking LittleLink easier.
-            You can edit or remove anything here to make your own footer.
-        -->
-        <p>© 2026, Samuel Muñoz | <a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
-
+  <div class="wrap">
+    <header class="topbar">
+      <span class="brand-pill"><span class="brand-dot"></span> sdmunoz.xyz</span>
+      <div class="top-actions">
+        <button class="icon-btn" id="shareBtn" title="Compartir" aria-label="Compartir">⤴</button>
+        <button class="icon-btn" id="themeBtn" title="Cambiar tema" aria-label="Cambiar tema">◐</button>
       </div>
-    </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="avatar-ring">
+          <img src="images/35168329-9798-4f24-a9fa-aad87c7e16e0.jpg" alt="Foto de Samuel Muñoz" width="124" height="124">
+        </div>
+        <h1>Samuel Muñoz
+          <svg class="verified" viewBox="0 0 24 24" fill="#7c5cff" aria-label="Verificado"><path d="M12 2l2.4 2.4 3.4-.5.9 3.3 3 1.7-1.4 3.1 1.4 3.1-3 1.7-.9 3.3-3.4-.5L12 22l-2.4-2.4-3.4.5-.9-3.3-3-1.7L3.7 12 2.3 8.9l3-1.7.9-3.3 3.4.5z"/><path d="M10.6 14.6l-3-3 1.4-1.4 1.6 1.6 4.4-4.4 1.4 1.4z" fill="#fff"/></svg>
+        </h1>
+        <p class="handle">@sdmunoz · México</p>
+        <p class="bio"><strong>Software developer · SRE engineer.</strong> Siempre ocupado en una reunión, pero siempre construindo cosas en la nube.</p>
+        <ul class="chips">
+          <li>☁️ SRE</li>
+          <li>💻 Software Dev</li>
+          <li>🛠️ Cloud &amp; DevOps</li>
+        </ul>
+      </section>
+
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="filter" type="search" placeholder="Filtrar enlaces… (ej. github)" aria-label="Filtrar enlaces">
+      </div>
+
+      <h2 class="section-label">☕ Apoyo</h2>
+      <nav class="links" aria-label="Apoyo" id="links-support">
+        <a class="card featured" href="https://paypal.me/sdmunoz" target="_blank" rel="noopener" data-name="paypal apoyo donar">
+          <span class="tile"><img src="images/icons/paypal.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>PayPal</strong><span>paypal.me/sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card featured" href="https://www.buymeacoffee.com/sdmunoz" target="_blank" rel="noopener" data-name="buy me a coffee cafe apoyo">
+          <span class="tile"><img src="images/icons/buy-me-a-coffee.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Buy me a coffee</strong><span>buymeacoffee.com/sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.amazon.com.mx/hz/wishlist/ls/3Q0AO9PN9W78A?ref_=wl_share" target="_blank" rel="noopener" data-name="amazon wishlist regalos">
+          <span class="tile"><img src="images/icons/amazon.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Amazon Wishlist</strong><span>Lista de deseos</span></span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+
+      <h2 class="section-label">💼 Profesional</h2>
+      <nav class="links" aria-label="Profesional">
+        <a class="card" href="https://github.com/SamuelMunoz" target="_blank" rel="noopener" data-name="github codigo proyectos">
+          <span class="tile dark"><img src="images/icons/github.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>GitHub</strong><span>@SamuelMunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.linkedin.com/in/sdmunoz/" target="_blank" rel="noopener" data-name="linkedin trabajo cv">
+          <span class="tile"><img src="images/icons/linkedin.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>LinkedIn</strong><span>/in/sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+
+      <h2 class="section-label">🌐 Social</h2>
+      <nav class="links" aria-label="Social" id="links-social">
+        <a class="card" href="https://x.com/sdmunoz_" target="_blank" rel="noopener" data-name="x twitter">
+          <span class="tile dark"><img src="images/icons/x.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>X (Twitter)</strong><span>@sdmunoz_</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.threads.net/@sdmunoz" target="_blank" rel="noopener" data-name="threads meta">
+          <span class="tile dark"><img src="images/icons/threads.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Threads</strong><span>@sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://bsky.app/profile/sdmunoz.xyz" target="_blank" rel="noopener" data-name="bluesky bsky">
+          <span class="tile"><img src="images/icons/bluesky.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Bluesky</strong><span>sdmunoz.xyz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.instagram.com/sdmunoz/" target="_blank" rel="noopener" data-name="instagram fotos">
+          <span class="tile"><img src="images/icons/instagram.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Instagram</strong><span>@sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://facebook.com/sdmunoz" target="_blank" rel="noopener" data-name="facebook">
+          <span class="tile"><img src="images/icons/facebook.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Facebook</strong><span>/sdmunoz</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.reddit.com/user/sdmunoz9" target="_blank" rel="noopener" data-name="reddit">
+          <span class="tile"><img src="images/icons/reddit.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Reddit</strong><span>u/sdmunoz9</span></span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+
+      <h2 class="section-label">🎬 Contenido &amp; Contacto</h2>
+      <nav class="links" aria-label="Contenido">
+        <a class="card" href="https://www.youtube.com/channel/UCPoK5diTUOQnyz0bVXlAP8Q" target="_blank" rel="noopener" data-name="youtube videos canal">
+          <span class="tile"><img src="images/icons/youtube.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>YouTube</strong><span>Canal personal</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.tiktok.com/@samuelmunoz9" target="_blank" rel="noopener" data-name="tiktok videos">
+          <span class="tile dark"><img src="images/icons/tiktok.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>TikTok</strong><span>@samuelmunoz9</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://t.me/sdmunoz" target="_blank" rel="noopener" data-name="telegram mensaje">
+          <span class="tile"><img src="images/icons/telegram.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>Telegram</strong><span>Escríbeme</span></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://wa.me/?text=Hola%20Samuel" target="_blank" rel="noopener" data-name="whatsapp mensaje">
+          <span class="tile"><img src="images/icons/whatsapp.svg" alt="" loading="lazy"></span>
+          <span class="card-text"><strong>WhatsApp</strong><span>Escríbeme</span></span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+
+      <div class="empty" id="empty">Sin resultados para tu búsqueda. 😢</div>
+
+      <footer>
+        <p>© 2026 Samuel Muñoz · <a href="privacy.html">Privacidad</a></p>
+      </footer>
+    </main>
   </div>
 
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+    // Tema persistente (sigue siendo estático: solo localStorage)
+    const root = document.documentElement;
+    const saved = localStorage.getItem('sdmunoz-theme');
+    if (saved) root.setAttribute('data-theme', saved);
+    document.getElementById('themeBtn').addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('sdmunoz-theme', next);
+    });
+    // Compartir
+    document.getElementById('shareBtn').addEventListener('click', async () => {
+      const data = { title: document.title, text: 'Samuel Muñoz — todos mis enlaces', url: location.href };
+      if (navigator.share) { try { await navigator.share(data); } catch (e) {} }
+      else { await navigator.clipboard.writeText(location.href); alert('Enlace copiado 📋'); }
+    });
+    // Filtro en vivo
+    const input = document.getElementById('filter');
+    const cards = [...document.querySelectorAll('.card')];
+    const empty = document.getElementById('empty');
+    const labels = [...document.querySelectorAll('.section-label')];
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach(c => {
+        const hit = !q || (c.dataset.name + ' ' + c.textContent.toLowerCase()).includes(q);
+        c.style.display = hit ? '' : 'none';
+        if (hit) visible++;
+      });
+      labels.forEach(l => {
+        let next = l.nextElementSibling;
+        let any = false;
+        while (next && !next.classList.contains('section-label')) {
+          if (next.classList.contains('links')) {
+            any = [...next.querySelectorAll('.card')].some(c => c.style.display !== 'none');
+            break;
+          }
+          next = next.nextElementSibling;
+        }
+        l.style.display = !q || any ? '' : 'none';
+      });
+      empty.style.display = visible ? 'none' : 'block';
+    });
+  </script>
 </body>
-
 </html>
